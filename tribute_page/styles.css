@@ -1,0 +1,151 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+  body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: #000000;
+    color: white; 
+    font-family: 'Helvetica Neue';
+    text-align: center;
+  }
+  
+  header {
+    background-color: #000000;
+    
+    border-bottom: 3px solid #FFE81F;
+    }
+  
+    header > h1 {
+    font-family: 'SF Distant Galaxy OutLine' , sans-serif;
+    text-align: center;
+    font-size: 6rem;
+    display: block;
+    margin-block-start: 0.1em;
+    margin-block-end: 0.1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    color:  #FFE81F
+    
+  }
+  header > p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 1.6rem;
+    text-align: center;
+    font-family: 'Helvetica Neue', sans-serif;
+  
+  }
+  figcaption {
+    text-align: center;
+    font-size: 1.1rem;
+    font-family: 'Helvetica Neue';
+    display: block;
+  }
+  section > h2 {
+    text-align: center;
+    color: #FFE81F; 
+    font-family: 'SF Distant Galaxy Outline', sans-serif;
+    font-style: italic;
+    font-size: 3.5em
+    
+  }
+  
+  section {
+     border-bottom: 3px solid #FFE81F;
+  }
+   nav {
+     font-family: 'SF Distant Galaxy', sans-serif;
+  
+   }
+  
+    ul {
+      max-width: 550px;
+      margin: 0 auto 50px auto;
+      list-style-type: none;
+      text-align: left;
+      line-height: 1.6;
+      
+      
+    }
+    li{
+      float: center;
+    }
+    li a {
+      display: block;
+      color: white; 
+      text-align: center;
+      padding: 10px 30px 10px 30px;
+      text-decoration: none;
+      font-size: 32px; 
+    }
+    li a:hover {
+      background-color: #111;
+    }
+  
+  section > ul > li > label {
+    color: #FFE81F;
+    font-size: 1.5em;
+    font-style: bold; 
+    font-family: 'SF Distant Galaxy Outline', sans-serif;
+  }
+  
+  section > ul > li {
+    padding: 5px;
+    
+    font-family: 'Helvetica Neue';
+  }
+  img {
+    max-width: 100%; 
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
+  .column {
+    float: left;
+    width: 33.33%;
+    
+    
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  h3 {
+    color: #FFE81F;
+    font-size: 1.5em;
+    font-style: bold; 
+    font-family: 'SF Distant Galaxy Outline', sans-serif;
+  }
+  
+  .column > ul > li > p {
+     font-family: 'SF Distant Galaxy', sans-serif;
+  }
+  .column > ul > li {
+    text-align: left;
+  }
+  
+  section > ul > li > p {
+     font-family: 'SF Distant Galaxy', sans-serif;
+     text-align: left;
+  }
+  h3 > a {
+  text-decoration: none;
+  color: #FFE81F;
+  }
+  
+  h3 a:hover {
+      color: white;
+    }
+  
+  
